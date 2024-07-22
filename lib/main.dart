@@ -4,26 +4,39 @@ void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MyApp extends StatefulWidget {
+  const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  String txt = '';
+
+  @override
+  void initState() {
+    txt = 'Hello darkness my old friend !';
+    super.initState();
+  }
+
+  void onButtonPressed() {
+    setState(() {
+      txt = 'I have come to talk with you again !';
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter App',
-        home: Scaffold(
-            appBar: AppBar(
-              title: Text('Flutter Basics'),
-            ),
-            body: Container(
-              color: Colors.pink,
-              child: Container(
-                color: Colors.yellow,
-                margin: EdgeInsets.all(20),
-              ),
-            )
-        )
+      home: Scaffold(
+        body: Center(
+          child: ElevatedButton(
+            onPressed: onButtonPressed,
+            child: Text(txt),
+          ),
+        ),
+      ),
     );
   }
 }
