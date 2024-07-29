@@ -35,7 +35,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCqFjCV_9CZmYeIvcK9FVy4drmKUlSaIWY',
+    apiKey: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
     appId: '1:963656261848:web:7219f7fca5fc70afb237ad',
     messagingSenderId: '963656261848',
     projectId: 'flutterfire-ui-codelab',
@@ -45,7 +45,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDconZaCQpkxIJ5KQBF-3tEU0rxYsLkIe8',
+    apiKey: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
     appId: '1:963656261848:android:c939ccc86ab2dcdbb237ad',
     messagingSenderId: '963656261848',
     projectId: 'flutterfire-ui-codelab',
@@ -53,7 +53,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBqLWsqFjYAdGyihKTahMRDQMo0N6NVjAs',
+    apiKey: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
     appId: '1:963656261848:ios:d9e01cfe8b675dfcb237ad',
     messagingSenderId: '963656261848',
     projectId: 'flutterfire-ui-codelab',
@@ -63,7 +63,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBqLWsqFjYAdGyihKTahMRDQMo0N6NVjAs',
+    apiKey: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
     appId: '1:963656261848:ios:d9e01cfe8b675dfcb237ad',
     messagingSenderId: '963656261848',
     projectId: 'flutterfire-ui-codelab',
